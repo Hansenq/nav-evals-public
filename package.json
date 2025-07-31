@@ -1,0 +1,32 @@
+{
+  "name": "nav-evals",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf ./node_modules",
+    "create-sf-test-set": "tsx src/test-sets/create-sf-test-set.ts",
+    "create-ca-test-set": "tsx src/test-sets/create-ca-test-set.ts",
+    "run-llm-on-test-set": "tsx src/run-llm-on-test-set.ts",
+    "run-all-combinations": "tsx src/run-all-combinations.ts",
+    "eval-llm-test-set-outputs": "tsx src/eval-llm-test-set-outputs.ts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "openai": "^4.41.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^20.11.0",
+    "dotenv": "^16.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.4"
+  }
+}
