@@ -1,0 +1,3 @@
+{"id":"ca-sf-la","prompt":"From San Francisco, CA to Los Angeles, CA\nBegin: East, I-80 E\nEnd: I-5 S","answer":"Begin: East, I-80 E\nRight, I-580 E\nRight, I-5 S\nDestination, straight"}
+{"id":"ca-sf-kirkwood","prompt":"From San Francisco, CA to Kirkwood, CA\nBegin: East, I-80 E\nEnd: CA-88 W","answer":"Begin: East, I-80 E\nRight, US-50 E\nRight, CA-89 S\nRight, CA-88 W\nDestination, straight"}
+{"id":"ca-monterey-sf","prompt":"From Monterey, CA to San Francisco, CA\nBegin: North, CA-1 N\nEnd: US-101 N","answer":"Begin: North, CA-1 N\nRight, CA-156 E\nRight, US-101 N\nDestination, straight"}
